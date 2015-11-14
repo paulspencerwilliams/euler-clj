@@ -1,7 +1,7 @@
 (ns euler.solver)
 
-(defn p1-sum-mutiples-of-3-and-5-upto
-  "I don't do a whole lot."
+(defn p1-sum-mutiples-of-3-or-5-upto
+  "Sum multiples of 3 or 5 upto end"
   [end]
   (reduce
     +
